@@ -1,0 +1,103 @@
+
+
+
+.container{
+ height: 660px; 
+ width: 650px; 
+display: flex;
+flex-direction: column;
+margin: auto;
+margin-top: 5vh;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+ img{
+    height: 52%;
+ }
+
+ .banner{
+    height: 6vh;
+    padding-left: 15px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2) ;
+} 
+
+.text{
+    height:30vh;
+    padding-left: 20px;
+    padding-top: none;
+}
+
+.btn{
+    height:12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+button{
+    height:100%;
+    width: 33.1%;
+    border:none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+#player1{
+    background-color: #00d1b2;
+    color:#ffff;
+    font-size: 150%;
+}
+#player2{
+    background-color: #3298dc;
+    color:#ffff;
+    font-size: 150%;
+}
+#Reset{
+    background-color: #f14668;
+    color:#ffff;
+    font-size: 150%;
+  
+   
+}
+button:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); /* Add a slight box-shadow on hover */
+  
+  }
+
+h1{
+    color: #363636;
+    font-size: 40px;
+    font-family:"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 30px;
+}
+#line{
+    
+    color: #4a4a4a;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.25;
+    font-family:"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+label{
+    color:#363636;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family:"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#match{
+    border:1px solid rgb(156, 155, 155);
+    border-radius: 290486px;
+    padding: 10px 16px 10px 16px;
+    padding-left: 1em;
+    margin-left: 10px;
+    margin-bottom:20px;
+    cursor: pointer;
+}
+
+.winner{
+    color:green;
+}
+.loser{
+    color:red;
+}
